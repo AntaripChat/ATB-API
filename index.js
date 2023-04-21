@@ -10,4 +10,6 @@ app.get('/',(req,res)=>{
     })
 });
 
-app.listen(6000,()=> console.log('App running'));
+app.listen(6000,()=> {
+    console.log('App running');
+});
